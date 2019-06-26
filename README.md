@@ -13,11 +13,8 @@ Usage: `python gradcam.py <path_to_image>`
 
 ##### Examples
 
-![enter image description here](https://github.com/jacobgil/keras-grad-cam/blob/master/examples/boat.jpg?raw=true) ![enter image description here](https://github.com/jacobgil/keras-grad-cam/blob/master/examples/persian_cat.jpg?raw=true)
+'Bald eagle, American eagle, Haliaeetus leucocephalus' (22 in keras)
 
-Example image from the [original implementation](https://github.com/ramprs/grad-cam):  
-
-'bald eagle, American eagle, Haliaeetus leucocephalus' (22 in keras)
-
-![](/examples/bald_american_eagle)
-![](/examples/gradcam1.jpg)
+![](bald_american_eagle.jpg)
+![](gradcam1.jpg)
+![](guided_gradcam.jpg)
