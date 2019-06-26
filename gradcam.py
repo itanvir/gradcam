@@ -131,7 +131,7 @@ model = VGG16(weights='imagenet')
 predictions = model.predict(preprocessed_input)
 top_classes = np.argsort(np.squeeze(predictions))[::-1]
 
-for icls in range(3):
+for icls in range(2):
     top_icls = decode_predictions(predictions)[0][icls]
     print('Predicted class:')
     print('%s (%s) with probability %.2f' % (top_icls[1], top_icls[0], top_icls[2]))
